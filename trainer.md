@@ -1,11 +1,10 @@
-# Trainer
-A customizable trainer class that is easy to use and makes training machine learning models faster. Headings included on this page are as follows:
-- [Overview](#overview)
-- [Usage Example](#usage-example)
-- [Updated Support](#-updated-support)
-- [Change Log](#change-log)
-- [Usage Example](#usage-example)
-## Overview 🌟
+# ml_utils
+A ml_utils repository containing the following sections:
+- [Trainer](#trainer-)
+
+
+
+## Trainer 🌟
 Trainer class to provide support for training any machine learning model. The goal is to make it reusable to save time for setting up the boilerplate code. Some functions are basic for training any model and then there are some advanced functions. 
 ### Basic functions
 - Training loop
@@ -19,6 +18,13 @@ Trainer class to provide support for training any machine learning model. The go
 - Gradient accumulation
 
 ## Usage Example 💡
+The repository provides a **base trainer class** (`BaseTrainer`) available via:
+
+    from ml_utils import BaseTrainer
+
+You can extend this class to implement customized training workflows.  
+Examples of such customizations are provided in [ml_utils/trainers/trainer.py](./ml_utils/trainers/trainers.py).
+
 
 ## Updated Support 🆕
 ### Current Features (v0.1)

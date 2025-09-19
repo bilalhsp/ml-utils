@@ -1,12 +1,10 @@
 Metadata-Version: 2.1
-Name: ml-utils
+Name: ml_utils
 Version: 0.1
 Summary: Customizable Functions and objects for ML stuff.
 Home-page: https://github.com/bilalhsp/ml-utils.git
 Author: Bilal Ahmed
 Author-email: bilalhsp@gmail.com
-License: UNKNOWN
-Platform: UNKNOWN
 Classifier: Development Status :: 3 - Alpha
 Classifier: Intended Audience :: Science/Research
 Classifier: Topic :: Scientific/Engineering
@@ -14,6 +12,6 @@ Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 License-File: LICENSE
-
-UNKNOWN
-
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: torch>=2.0.1
